@@ -1,0 +1,4 @@
+RUN	com.gatling.tests.api.APITest	apitest	1657112952127	 	3.6.1
+USER	GET API Request Demo	START	1657112953742
+REQUEST		Get Single User	1657112953764	1657112954077	KO	jsonPath($.x.data[0].id).find.is(7), but actually found nothing
+USER	GET API Request Demo	END	1657112955184

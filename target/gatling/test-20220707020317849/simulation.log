@@ -1,0 +1,13 @@
+RUN	com.gatling.tests.api.test	test	1657159397849	 	3.6.1
+USER	Create User	START	1657159398511
+USER	Update User	START	1657159398511
+USER	Get User by User ID	START	1657159398511
+USER	Delete User	START	1657159398511
+REQUEST		Get user	1657159398538	1657159398630	KO	j.n.SocketException: Network is unreachable
+REQUEST		POST User	1657159398538	1657159398630	KO	j.n.SocketException: Network is unreachable
+REQUEST		PUT User	1657159398538	1657159398630	KO	j.n.SocketException: Network is unreachable
+REQUEST		DELETE User	1657159398538	1657159398630	KO	j.n.SocketException: Network is unreachable
+USER	Delete User	END	1657159398648
+USER	Get User by User ID	END	1657159398648
+USER	Update User	END	1657159398648
+USER	Create User	END	1657159398648
